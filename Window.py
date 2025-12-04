@@ -1,6 +1,8 @@
 import pygame
-from Constants import (WHITE_COLOR_RGB, BLACK_COLOR_RGB, RED_COLOR_RGB,
-GREEN_COLOR_RGB, BLUE_COLOR_RGB, WIDTH,NUM_ROWS, CELL_SIZE)
+from .Constants import (
+    WHITE_COLOR_RGB, BLACK_COLOR_RGB, RED_COLOR_RGB,
+    GREEN_COLOR_RGB, BLUE_COLOR_RGB, WIDTH, NUM_ROWS, CELL_SIZE
+)
 
 class Window(object):
     def __init__(self, width=WIDTH):

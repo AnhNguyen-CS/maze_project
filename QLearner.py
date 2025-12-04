@@ -1,7 +1,7 @@
-from Board import Board
-from Window import Window
-from Player import Player
-from Constants import ACTIONS, NUM_EPISODES, EPSILON
+from .Board import Board
+from .Window import Window
+from .Player import Player
+from .Constants import ACTIONS, NUM_EPISODES, EPSILON
 import random
 import operator
 import copy

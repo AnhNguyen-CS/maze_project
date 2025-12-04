@@ -1,4 +1,5 @@
-from Constants import NUM_ROWS, CELL_VALUES, TERMINAL_CELLS
+from .Constants import NUM_ROWS, CELL_VALUES, TERMINAL_CELLS
+
 
 class Board(object):
     cellValues = {} # Maps cell (x, y) to reward r
